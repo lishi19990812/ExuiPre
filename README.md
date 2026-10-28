@@ -73,11 +73,12 @@ Windows 加载器在入口点之前触发 TLS 回调（抢跑）
 
 1. 将 `ExuiPack.exe` 和 `ExuiPre_static.lib` 放入易语言目录：
 ```
- 易语言根目录
-├─ tools\ExuiPack.exe ← 打包工具
-└─ lib\ExuiKrnln
-├─ ExuiKrnln_Win32.lib ← 官方静态库（已有则跳过）
-└─ ExuiPre_static.lib ← 释放机制库
+易语言根目录\
+├─ tools\ExuiPack.exe          ← 打包工具
+├─ lib\ExuiPre.fne             ← 易语言插件
+└─ static_lib
+   ├─ ExuiKrnln_Win32.lib      ← EXUI官方静态库（安装的EXUI官方静态支持库）
+   └─ ExuiPre_static.lib       ← 释放机制库
 ```
 
 2. 运行一次 `ExuiPre.fne`（或在易语言 IDE 中安装该支持库），
