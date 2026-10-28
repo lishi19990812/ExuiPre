@@ -199,6 +199,9 @@ A：凡会压缩/重写代码节和 TLS 目录的壳均不兼容，原理同上�
 A：不必。本项目采用 MIT 协议，允许将 ExuiPre_static.lib 静态链接进闭源程序，
 你的程序可自由闭源商用。
 
+**Q：编译几次都不行？**
+A：看到易语言输出框有没有[ExuiPack]字样的提示文本？编译成功、失败都会又提示，如果没看到提示，请去易语言目录：易语言\tools下运行一次ExuiPack.exe，然后关掉ExuiPack.exe的窗口，再次编译，然后就可以正常编译了。
+
 ## License
 本项目采用 **MIT License** 开源 —— 详见 [LICENSE](LICENSE)
 
