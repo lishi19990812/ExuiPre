@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) ![Platform](https://img.shields.io/badge/platform-Windows-blue) ![Lang](https://img.shields.io/badge/易语言-静态编译-orange)
 
 > 仓库地址：https://github.com/lishi19990812/ExuiPre
-> 精易论坛发布帖：（预留）
+> 精易论坛发布帖：https://bbs.ijingyi.com/forum.php?mod=viewthread&tid=14881333
 ---
 
 ## 这是什么？
