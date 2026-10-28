@@ -7,11 +7,16 @@
 > 仓库地址：https://github.com/lishi19990812/ExuiPre
 > 精易论坛发布帖：https://bbs.ijingyi.com/forum.php?mod=viewthread&tid=14881333
 ---
+## 使用方法
+
+支持库：第一个指令写入  “ExuiPre初始化 () ”  
+易语言模块： 加入模块后，编译出的exe，自动解压ExuiKrnln_Win32.lib，需要在程序结束前加个 “释放EXUI支持库 () ”  
+> 总之，一个最前，一个最后，支持库的支持最新版EXUI,模块仅支持老版本。 
 
 ## 这是什么？
-易语言EXUI插件
-易语言静态编译时，程序依赖 `lib\ExuiKrnln\ExuiKrnln_Win32.lib` 之类的支持库文件，
-交付时必须连 lib 一起打包发给别人，既麻烦又容易漏。
+易语言EXUI插件<br>
+易语言静态编译时，程序依赖 `lib\ExuiKrnln\ExuiKrnln_Win32.lib` 之类的支持库文件，<br>
+交付时必须连 lib 一起打包发给别人，既麻烦又容易漏。<br>
 
 **ExuiPre 一套解决**：
 
