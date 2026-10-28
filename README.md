@@ -2,7 +2,7 @@
 > 让易语言静态编译的 exe **不再依赖 EXUI 的 ExuiKrnln_Win32.lib 文件**：编译时自动把支持库打包进 exe，
 > 运行时自释放、退出自清理，实现真正的**单文件交付**。
 
-[![License](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE) ![Platform](https://img.shields.io/badge/platform-Windows-blue) ![Lang](https://img.shields.io/badge/易语言-静态编译-orange)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) ![Platform](https://img.shields.io/badge/platform-Windows-blue) ![Lang](https://img.shields.io/badge/易语言-静态编译-orange)
 
 > 仓库地址：https://github.com/lishi19990812/ExuiPre
 > 精易论坛发布帖：（预留）
@@ -126,9 +126,16 @@ A：确认 ExuiPre_static.lib 版本与 ExuiPack.exe 版本配套（两边是特
 **Q：能加壳吗（UPX 之外的壳）？**
 A：凡会压缩/重写代码节和 TLS 目录的壳均不兼容，原理同上。
 
-## License
+**Q：用本插件编译的程序，我必须开源吗？**
+A：不必。本项目采用 MIT 协议，允许将 ExuiPre_static.lib 静态链接进闭源程序，
+你的程序可自由闭源商用。
 
-MIT License —— 详见 [LICENSE](LICENSE)
+## License
+本项目采用 **MIT License** 开源 —— 详见 [LICENSE](LICENSE)
+
+你可以自由使用、修改、分发本项目，包括将 ExuiPre_static.lib 静态链接进你自己的
+程序（无论你的程序开源与否、商用与否），无需开放你的源码。
+唯一要求：保留原许可声明与版权信息。
 
 ## 致谢
 
