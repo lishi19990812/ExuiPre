@@ -178,7 +178,7 @@ ExuiPack.exe --verify 目标.exe
 ├── ExuiPack/ # 打包工具（VS 工程，C++）
 ├── ExuiPre_static/ # 运行时释放机制（静态库工程，C++）
 ├── ExuiPre/ # 易语言支持库插件（fne）
-├── EXUI前置.e # 易语言模块源码
+├── EXUI前置.e # 易语言模块源码(密码041)
 ├── README.md
 └── LICENSE
 ```
