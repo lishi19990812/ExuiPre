@@ -1,10 +1,11 @@
 # ExuiPre —— 易语言EXUI静态编译单文件交付方案
-
 > 让易语言静态编译的 exe **不再依赖 EXUI 的 ExuiKrnln_Win32.lib 文件**：编译时自动把支持库打包进 exe，
 > 运行时自释放、退出自清理，实现真正的**单文件交付**。
 
-![License](https://img.shields.io/badge/license-MIT-green) ![Platform](https://img.shields.io/badge/platform-Windows-blue) ![Lang](https://img.shields.io/badge/易语言-EXUI静态编译-orange)
+[![License](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE) ![Platform](https://img.shields.io/badge/platform-Windows-blue) ![Lang](https://img.shields.io/badge/易语言-静态编译-orange)
 
+> 仓库地址：https://github.com/lishi19990812/ExuiPre
+> 精易论坛发布帖：（预留）
 ---
 
 ## 这是什么？
