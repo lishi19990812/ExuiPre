@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../ExuiPack/ExuiPack.vcxproj" Id="e10531e6-ec6f-4f07-9798-6bd74471eeaa" />
+  <Project Path="../ExuiPre_static/ExuiPre_static1.vcxproj" Id="c593b263-80cb-482d-8649-558a0c0044ee" />
+  <Project Path="ExuiPre.vcxproj" Id="3c2214df-deea-42c9-8a04-45757bfa6d07" />
+</Solution>
